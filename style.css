@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contain{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(7, 40, 71);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#load{
+    width: 400px;
+    height: 25px;
+    background-color: rgb(174, 174, 174);
+    border-radius: 50px;
+}
+#insideload{
+    width: 0%;
+    height: 100%;
+    background: linear-gradient( rgb(82, 212, 43), rgb(37, 157, 0));
+    border-radius: 50px;
+
+}
+#speed{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#speed p{
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+#speed h5{
+    color: whitesmoke;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+button{
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    background: linear-gradient( rgb(82, 212, 43), rgb(37, 157, 0));
+    font-weight: bolder;
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+}
+button:active{
+    transform: scale(0.9);
+}
+
+h3{
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    opacity: 80%;
+    font-weight: 400;
+}
